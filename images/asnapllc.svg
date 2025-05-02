@@ -1,24 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-  <!-- Gradient Background -->
-  <defs>
-    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4CC9F0" stop-opacity="0.1"/>
-      <stop offset="100%" stop-color="#4361EE" stop-opacity="0.1"/>
-    </linearGradient>
-  </defs>
-  <circle cx="300" cy="200" r="170" fill="url(#bg-gradient)"/>
-  
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
   <!-- Letter A outer shape -->
-  <path d="M225,310 L300,90 L375,310" stroke="#4361EE" stroke-width="25" stroke-linecap="round" fill="none"/>
+  <path d="M145,350 L195,50 L325,350"
+        stroke="#4361EE" stroke-width="25" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
   
   <!-- Heartbeat line as crossbar -->
-  <path d="M245,200 L275,200 L290,160 L305,240 L320,160 L335,200 L355,200" 
-        stroke="#F72585" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  
-  <!-- Company Name -->
-  <text x="300" y="350" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#4361EE">A.SNAP LLC</text>
-  
-  <!-- Subtle outline for depth -->
-  <path d="M225,310 L300,90 L375,310" stroke="#7209B7" stroke-width="28" stroke-opacity="0.2" stroke-linecap="round" fill="none"/>
+  <path d="M50,230 L60,225 L75,225 L95,205 L125,225 L150,225 L175,75 L200,255 L210,230 L225,225 L240,215 L265,175 L290,230 L310,233 L350,225" 
+        stroke="#F72585" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>
