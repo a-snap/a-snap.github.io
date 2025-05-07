@@ -62,7 +62,13 @@ header {
 
 .logo-text {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
+}
+
+.logo-text-light {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--light);
 }
 
 nav ul {
